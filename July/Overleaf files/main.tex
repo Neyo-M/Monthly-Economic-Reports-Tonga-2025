@@ -1,0 +1,279 @@
+\documentclass[11pt,a4paper]{setup}
+\usepackage{graphicx} % Required for inserting images
+\usepackage{booktabs} % For better table formatting
+\usepackage{multirow} % For multi-row cells
+\usepackage{lipsum}   % For dummy text (remove in your actual document)
+\usepackage{afterpage}
+
+
+\journalname{July 2025}
+\title{Monthly Economic Update}
+\author{Ministry of Finance }
+%\date{September 2025}
+
+\RequirePackage[
+    left=1.25cm,
+    right=1.25cm,
+    top=2cm,
+    bottom=2cm,
+    headsep=0.75cm
+]{geometry}
+
+%----------------------------------------------------------
+% PREDEFINED LENGTHS
+%----------------------------------------------------------
+
+\setlength{\columnsep}{15pt}
+
+%----------------------------------------------------------
+% FIRST PAGE, HEADER AND FOOTER
+%----------------------------------------------------------
+
+
+% First page style
+
+%\institution{\LaTeX\ Template}
+\footinfo{Ministry of Finance, Tonga}
+\theday{July 2025}
+\leadauthor{Ministry of Finance}
+\course{Economic and Fiscal Policy Division}
+
+
+
+\begin{document}
+
+\maketitle
+\thispagestyle{firststyle} 
+
+
+
+\begin{table*}[h] % [t] places table at top of page
+\centering
+\caption{Ministry of Finance ‘At a Glance’ report, as of 30th July 2025}
+\label{tab:economic_update}
+\begin{tabular}{@{}lccccccc@{}}
+\toprule
+\multirow{2}{*}{\textbf{Economic Activity Indicators}} & 
+\multicolumn{4}{c}{\textbf{Annual}} & 
+\multicolumn{3}{c}{\textbf{Monthly Latest 3 months}} \\
+\cmidrule(lr){2-5} \cmidrule(lr){6-8}
+& FY21/22 & FY22/23 & FY23/24 & FY24/25 & May & June & July \\
+\midrule
+\textbf{\textcolor{taucolor}{GDP Growth (\%)}}  & -2.3 \textcolor{taucolor}{(a)} & 2.1 \textcolor{taucolor}{(p)} & 1.2 \textcolor{taucolor}{(f)} & 2.7 \textcolor{taucolor}{(f)} & - & - & - \\
+\textbf{\textcolor{taucolor}{CPI (\%) inflation}} & 6.8 & 12.8 & 8.0 & 3.0 & 1.2 & 1.4 & 2.1 \\
+\textbf{\textcolor{taucolor}{Foreign Reserve (\$m)}} & 871.2 & 921.4 & 924.3 & 925.1 & 871.5 & 925.1 & 921 \\
+\textbf{\textcolor{taucolor}{Remittance (m)}} & 472.3 & 529.2 & 521.3 & 540.7 & 49.5 & 45.6 & - \\
+\bottomrule
+
+\end{tabular}
+\end{table*}
+
+
+
+%\taustart{W}ell well well
+
+
+% Regular two-column content starts here
+%\section*{1. Economic Update}
+
+%\lipsum[1-2] % Replace with your actual content
+
+% More sections continue in two-column format
+%\section{Next Section}
+%\lipsum[3-4]
+
+%\newpage
+
+
+
+\section*{GDP growth}
+ \begin{figure}[H]
+    		\centering
+    		\includegraphics[width=0.9\columnwidth]{Figures/GDPJulya.png}
+    		\caption{GDP as of July}
+    		\label{fig:figure}
+    	\end{figure}
+\begin{itemize}
+\item Projected growth of \textbf{2.7\% in FY 2025}, driven by government development initiatives, post-pandemic recovery, and El Niño re-bound. 
+\item \textbf{Construction sector} remains the primary growth driver, supported by picking up of economic activities in key sectors including tourism, agriculture, and fisheries.
+\item Projected \textbf{average growth of 3.7\% over the medium term} (FY 2026–FY 2028), bolstered by major development projects.
+\end{itemize}
+
+\twocolumn
+
+\section*{Inflation}
+\begin{figure}[H]
+    		\centering
+    		\includegraphics[width=0.9\columnwidth]{Figures/InflationA.png}
+    		\caption{Inflation as of July}
+    		\label{fig:figure}
+    	\end{figure}
+
+
+Inflation increased to 1.4\% In January, and 2.1\% in July 2025.
+The increase in June and July was primarily driven by price increases in imported food items, clothing \& footwear, garden products, and goods for personal care. 
+
+\section*{Foreign Reserves}
+\begin{figure}[H]
+    		\centering
+    		\includegraphics[width=0.9\columnwidth]{Figures/ForeignRervesA.png}
+    		\caption{Foreign Reserves as of July}
+    		\label{fig:figure}
+    	\end{figure}
+
+
+Foreign reserves increased by \$53.5 million in July compared to the previous month, and over the year by \$0.7 million. This maintained the foreign reserves at a comfortable level of \$925.1 million, equivalent to 10.6 months of import coverage, well above the optimal level required.
+
+\section*{Remittances}
+\begin{figure}[H]
+    		\centering
+    		\includegraphics[width=0.9\columnwidth]{Figures/RemittancesA.png}
+    		\caption{Remittances as of July}
+    		\label{fig:figure}
+    	\end{figure}
+
+
+Remittance rose to \$46.5 million for the month of May (increase of 14.9\%). This was mainly from higher private transfers, employee compensation, and social benefits.
+
+\newpage
+
+\onecolumn
+
+
+\subsection*{Fiscal Update: Recurrent Budget}
+\begin{figure}[H]
+    		\centering
+    		\includegraphics[width=0.9\columnwidth]{Figures/RecurrentBudgetA.png}
+    		\caption{Recurrent Budget as of July}
+    		\label{fig:figure}
+    	\end{figure}
+
+\begin{center}
+\textbf{ OVERALL PERFORMANCE}    
+\end{center}
+
+
+\noindent A budget deficit of \$5.7m was recorded at the end of the July 2025 month, a slightly less positive performance compared to a forecasted deficit of \$7.5m. This was due mainly to lesser expenditures than planned, and at the same time, total revenues was under-collected by \$5.3m.
+Expenditures was less than forecasted driven by some delays in recording operational expenses - including grants under the social welfare scheme and those for sports. In addition, wage bill expenses were lower than anticipated due to vacant positions not being filled. More than 800 positions were vacant by the end of July 2025, mainly under the Ministry of Health; which could imply some risks on the national capacity for health service delivery.
+In line with the budget theme for FY 2025/26, there was new funding towards private sector development. Despite that, there has been no disbursements as of July, relevant arrangements are being finalized prior implementation in the upcoming months.
+As shown in the performance of July of the previous year, it is common for the first month of the FY to experience a deficit budget, due to a relatively low period of revenue collection.
+The financing of the deficit in July 2025 was from a drawdown of cash reserves worth \$5.7m.
+
+\newpage
+
+\subsection*{Revenue by category}
+\begin{figure}[H]
+    		\centering
+    		\includegraphics[width=0.9\columnwidth]{Figures/RevCategory.png}
+    		\caption{Recurrent Budget as of July}
+    		\label{fig:figure}
+    	\end{figure}
+
+
+In terms of tax revenues, positive performance can already be seen in July 2025 from income tax (higher than forecasted and year-on-year) - through witholding taxes from non-residents, in line with higher international locally based services and consultancy services. 
+Non-tax revenues on the other hand, particularly target for fees and licenses in July 2025 was under-collected mainly from transport-related fees and sale of quarry supplies under MOI, however is anticipated to be collected over the upcoming months.
+
+
+
+\subsection*{Expenses by category}
+\begin{figure}[H]
+    		\centering
+    		\includegraphics[width=0.9\columnwidth]{Figures/ExpCategory.png}
+    		\caption{Recurrent Budget as of July}
+    		\label{fig:figure}
+    	\end{figure}
+
+The usual key spending items in July 2025 were wage-bill related (established staff, unestablished staff, pensions), were lower than forecasted due to vacant positions yet to be filled.
+Under purchases of goods and services, \$1.9m was not spent against forecast for July 2025, largely from purchases of health-related goods which could be from delays in procurement and operational costs of overseas missions which are yet to be recorded into the system. This was followed by under-spending in grants mainly on the social welfare scheme payouts and sports grants (a delay in recording); which will be later reflected in the upcoming month's expenditures.
+
+\newpage
+
+\subsection*{Revenue by Ministry/Department/Agency (MDA)}
+\begin{figure}[H]
+    		\centering
+    		\includegraphics[width=0.9\columnwidth]{Figures/RevMDA.png}
+    		\caption{Recurrent Budget as of July}
+    		\label{fig:figure}
+    	\end{figure}
+
+The main revenue collecting Ministry (Revenue \& Customs) recorded a collection of \$19.3m in July 2025, which was \$5.0m or 21\% lower than forecasted. 
+The second highest revenue collecting MDA in July 2025 was the Ministry of Finance at \$1.2m, largely from interest receipts on deposits, and also collection from the foreign exchange levy that goes towards developing sports-related activities.
+Followed by the revenue collection under the Ministry of Infrastructure (MOI) at \$0.6m against a forecast of \$0.7m, of which the slightly lower collection was mainly from transport-related fees. The higher variance year-on-year however, reflects the change in classification, whereby in the previous year 2024/25, a large portion of MOI's transport-related revenues was recorded as revolving funds for road maintenance, but in the current year is being recorded as recurrent revenues instead.  
+
+
+\subsection*{Expenses by Ministry/Department/Agency (MDA)}
+\begin{figure}[H]
+    		\centering
+    		\includegraphics[width=0.9\columnwidth]{Figures/ExpMDA.png}
+    		\caption{Recurrent Budget as of July}
+    		\label{fig:figure}
+    	\end{figure}
+
+The MDA with the highest expenditure in July 2025 was the Ministry of Education and Training (MET) at \$8.6m reflecting the payouts of grants to non-government schools and first tranches to independent education institutions such as the TNQAB and Tonga National University.
+This was followed by spending under the Ministry of Finance in July 2025, which included foreign debt repayments, domestic bank fees and the on-going government subsidy on electricity or the lifeline tariff scheme.
+On the other hand, spending that deviated most from the forecast for July 2025 was the Ministry of Internal Affairs spending much lower than anticipated in July 2025 in terms of sports grants which was a delay in payment, but will be made in the upcoming month.
+
+
+\section*{Development Budget}
+\begin{figure}[H]
+    		\centering
+    		\includegraphics[width=0.9\columnwidth]{Figures/RevDev.png}
+    		\caption{Revenue \& Expenditure by Ministry Performance as of July}
+    		\label{fig:figure}
+    	\end{figure}
+
+The Development Cash component for July 2025 utilized about 2\% of the Total Budget Allocation for FY 2025/2026. The major utilisation was under the Ministry of Infrastructure driven by the Tonga Climate and Resilient Transport 2 Project and HTHH Recovery Project. Following that is the Tonga Safe \& Resilient School Project implemented by the Ministry of Education  with constructions underway for the Tsunami schools for completion before December 2025. 
+\begin{center}
+\textbf{Major Ongoing Projects for FY25 including:}
+\end{center}
+The available balance for the Development cash in July 2025 is at \$40.2m in addition to the cash receipts received in July of \$3.1m. However the remaining fund from FY2024/25 \$84.2m are still in process of reconciliation before it is available to be used. 
+Major ongoing projects for FY25 including:
+\begin{itemize}
+
+\item HTHH household reconstruction- to date 213 homes have been constructed with 73 households remaining.
+\item Tonga Safer Resilience School Project – ‘Eueki, Ha’apai \& Nomuka to start construction and to be complete by December 2025.
+\item Climate Change Trust Fund Operations – Support to provide most vulnerable households with clean drinking water and latrines.
+\item Tonga Police Support Program – Ongoing purchase of Maritime Patrol Boats and technical equipment.
+\item Tonga Fish Pathway- The complete procurement of 32 SMA boats \& storage facilities.
+\item E-Government Project- Ongoing works to improve its capacity for digital public service delivery
+\item Pacific Resilience Program – The ongoing construction of NDRMO headquarters at Matatoa is 50\% complete, currently awaiting the import of trusses before roof installation.
+\item Ongoing reconstruction of outer island jetties – Progress in Uhila,Pukotala, Ha’ano with remaining – Ha’afeva, ‘O’ua,’Ovaka,’Otea \& Tuanuku.
+\item Transport Climate Resilience Project II- At the conclusion of TCRTP I, savings have been allocated to improve the road from Hoi to Kolonga, while TCRTP II focuses on Ha’apai Wharf and main roads on the Island.
+\item E-Government Project- Ongoing works to improve its capacity for digital public service delivery
+Tonga Health System Support Program- Ongoing outreach programs in providing essential services to the community, continuous upskilling of staff through trainings \& scholarships plus the purchase of specialized equipment. 
+
+\end{itemize}
+
+\newpage
+
+\begin{center}
+\textbf{In-kind contribution with ongoing projects such as:}
+\end{center}
+
+\begin{itemize}
+    \item Ongoing upgrade of Mala’e Kula Royal Tombs said to be completed by August 2025.
+    \item Ongoing progress of Nukualofa Ports Upgrade to be complete in August 2025 well ahead of the grant agreement timeline of August 2026.
+    \item Tonga Renewable Energy Project – As of February this year there is a 94\% utilization rate of grant funds with possible savings that be used for additional scope of works. Vava’u Outer Island Systems- Hunga went live in November 2024, ‘Otea \& Falevai in December 2024.Ofu to be complete March 2025 with on going business skills training undertaken for all island locations.
+    \item Ongoing GGP projects to support the community – 
+    \begin{itemize}
+        \item ‘Utulau water supply
+        \item Ha’apai Koulo Evacuation Centre/Community Hall
+        \item Tonga Rugby Union Training Facility
+        \item Vava’u Mataika water supply
+        \item A Fire Truck for Ha'apai Airport
+    \end{itemize}
+
+    \item General Grant Assistance – The Government of Tonga received a new Tugboat from Japan in July 2024.
+    \item The complete installation of Ha’apai runway lights through the continues support from DFAT
+\end{itemize}
+
+\subsection*{Cash Flow as of 30th July 2025}
+\begin{figure}[H]
+    		\centering
+    		\includegraphics[width=0.9\columnwidth]{Figures/CashFlowA.png}
+    		\caption{Revenue \& Expenditure by Ministry Performance as of July}
+    		\label{fig:figure}
+    	\end{figure}
+
+
+\end{document}
